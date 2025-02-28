@@ -119,7 +119,7 @@ console.log(slicedFruits)
 
 let fruits2 = ["apple", "banana", "orange", "grape", "mango"];
 
-fruits2.splice(1, 1, "kiwi", "pineapple");
+fruits2.splice(1, 2, "kiwi", "pineapple");
 
 console.log(fruits2)
 
@@ -157,3 +157,12 @@ companies.splice(2, 1, "Ola");
 companies.push("Amazon");
 
 console.log(companies)
+
+//looping through array
+// forEach loop
+
+let heroe = ["ironman", "thorn", "hulk", "antman", "blackPather", "falcon", "captain america"];
+
+heroe.forEach(function(hero) {
+    console.log(hero)
+});
